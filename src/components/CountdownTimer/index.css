@@ -1,0 +1,53 @@
+.countdown-timer-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(10, 39, 65);
+  min-height: 100vh;
+}
+
+.countdown-timer-h1 {
+  font-family: 'Roboto';
+  font-weight: 40px;
+  color: #ffffff;
+}
+
+.countdown-timer-input-container {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.countdown-timer-input {
+  background-color: transparent;
+  border: 1px solid #857d7d;
+  border-radius: 6px;
+  width: 400px;
+  height: 40px;
+  padding: 3px 6px 3px 6px;
+  color: #ffffff;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.timer-controller-icon {
+  width: 30px;
+  margin-top: 8px;
+}
+
+.countdown-timer-time-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-timer {
+  color: #45c7ee;
+  font-size: 20px;
+  font-weight: 600;
+}
